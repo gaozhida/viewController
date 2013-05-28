@@ -10,4 +10,9 @@
 
 @interface funny_timeViewController : UIViewController
 
+{
+    IBOutlet UIWebView *myWebView;
+    IBOutlet UIToolbar *myToolbar;
+}
+
 @end
