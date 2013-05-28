@@ -17,9 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	NSURL *myURL = [NSURL URLWithString:@"http://maps.google.com.au/maps?hl=en"];
-    NSURLRequest *myRequest = [NSURLRequest requestWithURL:myURL];
-    [myWebView loadRequest: myRequest];
+	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
@@ -28,9 +26,4 @@
     // Dispose of any resources that can be recreated.
 }
 
--IBOutlet UIWebView *myWebView{
-    NSURL *myURL = [NSURL URLWithString:@"http://maps.google.com.au/maps?hl=en"];
-    NSURLRequest *myRequest = [NSURLRequest requestWithURL:myURL];
-    [myWebView loadRequest: myRequest];
-}
 @end
